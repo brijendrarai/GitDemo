@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="14" time="25.679">
+<testcase classname="application login" name="Home page default login" time="0.024">
+<system-out><![CDATA[Given user is on netbanking landing page....................................passed
+When user login into application with username "brij" and password 1234.....passed
+Then home page is populated.................................................passed
+And cards displayed "true"..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="application login" name="Mobile test Home page default login" time="0.011">
+<system-out><![CDATA[Given user is on netbanking landing page....................................passed
+When user login into application with username "brij" and password 1234.....passed
+Then home page is populated.................................................passed
+And cards displayed "true"..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="application login" name="Home page default login" time="0.005">
+<system-out><![CDATA[Given init background.......................................................passed
+Given user is on netbanking landing page....................................passed
+When user login into application with username "brij" and password 1234.....passed
+Then home page is populated.................................................passed
+And cards displayed "true"..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="application login" name="Home page default login 2" time="0.008">
+<system-out><![CDATA[Given init background.......................................................passed
+Given user is on netbanking landing page....................................passed
+When user login into application with username "kunu" and password 1234.....passed
+Then home page is populated.................................................passed
+And cards displayed "false".................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="application login" name="Home page default login 3" time="0.003">
+<system-out><![CDATA[Given init background.......................................................passed
+Given user is on netbanking landing page....................................passed
+When user login into application with username "kunu" and password 1234.....passed
+Then home page is populated.................................................passed
+And cards displayed "false".................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="application login" name="Home page default login 4" time="0.017">
+<system-out><![CDATA[Given init background.......................................................passed
+Given user is on netbanking landing page....................................passed
+When user signup with following details.....................................passed
+Then home page is populated.................................................passed
+And cards displayed "true"..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="application login" name="Home page default login 5" time="0.006">
+<system-out><![CDATA[Given init background.......................................................passed
+Given user is on netbanking landing page....................................passed
+When user login into application with username Kunu1 and password 1234......passed
+Then home page is populated.................................................passed
+And cards displayed true....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="application login" name="Home page default login 6" time="0.012">
+<system-out><![CDATA[Given init background.......................................................passed
+Given user is on netbanking landing page....................................passed
+When user login into application with username brij1 and password 4321......passed
+Then home page is populated.................................................passed
+And cards displayed false...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="application login" name="Mobile test Home page default login" time="0.007">
+<system-out><![CDATA[Given this is backgournd code...............................................passed
+Given user is on netbanking landing page....................................passed
+When user login into application with username "brij" and password 1234.....passed
+Then home page is populated.................................................passed
+And cards displayed "true"..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="application login" name="Mobile test Home page default login 2" time="0.009">
+<system-out><![CDATA[Given this is backgournd code...............................................passed
+Given user is on netbanking landing page....................................passed
+When user login into application with username "brij" and password 1234.....passed
+Then home page is populated.................................................passed
+And cards displayed "true"..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search and place order of vegitables" name="Search for items and validate result" time="14.007">
+<system-out><![CDATA[Given User is on Greencart landing page.....................................passed
+When User serach for "Cucumber" vegitable...................................passed
+Then "Cucumber" results are displayed.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search and place order of vegitables" name="Search for items and then move to checkout page" time="11.129">
+<failure message="chrome not reachable&#10;  (Session info: chrome=92.0.4515.131)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-S0IV8SP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55354}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 982f9c64536979f68017f57490a76090&#10;*** Element info: {Using=xpath, value=//input[@type='search']}" type="org.openqa.selenium.WebDriverException"><![CDATA[Given User is on Greencart landing page.....................................passed
+When User serach for "Brinjal" vegitable....................................failed
+And added items to cart.....................................................skipped
+And user proceeded to checkout page for purchase............................skipped
+Then verify selected "Brinjal" items are displayed in check out page........skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=92.0.4515.131)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-S0IV8SP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55354}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 982f9c64536979f68017f57490a76090
+*** Element info: {Using=xpath, value=//input[@type='search']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at pageObject.HomePage.getSearch(HomePage.java:16)
+	at stepDefination.SeleniumPracticeStepDefinitation.user_serach_for_vegitable(SeleniumPracticeStepDefinitation.java:28)
+	at ✽.User serach for "Brinjal" vegitable(file:///C:/Users/LENOVO/cucumber-learning/automation/src/test/java/features/SeleniumPractice.feature:14)
+]]></failure>
+</testcase>
+<testcase classname="web application login" name="Web test Home page default login" time="0.007">
+<system-out><![CDATA[Given user is on netbanking landing page....................................passed
+When user login into application with username "brij" and password 1234.....passed
+Then home page is populated.................................................passed
+And cards displayed "true"..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="web application login" name="Web test Home page default login 2" time="0.005">
+<system-out><![CDATA[Given user is on netbanking landing page....................................passed
+When user login into application with username "brij" and password 1234.....passed
+Then home page is populated.................................................passed
+And cards displayed "true"..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

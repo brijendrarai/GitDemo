@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="27.94" tests="14" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\LENOVO\Downloads\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\LENOVO\cucumber-learning\automation\target\test-classes;C:\Users\LENOVO\cucumber-learning\automation\target\classes;C:\Users\LENOVO\.m2\repository\io\cucumber\cucumber-java\6.10.4\cucumber-java-6.10.4.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\cucumber-core\6.10.4\cucumber-core-6.10.4.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\cucumber-gherkin\6.10.4\cucumber-gherkin-6.10.4.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.10.4\cucumber-gherkin-messages-6.10.4.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\cucumber-plugin\6.10.4\cucumber-plugin-6.10.4.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\docstring\6.10.4\docstring-6.10.4.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\LENOVO\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\cucumber-junit\6.10.4\cucumber-junit-6.10.4.jar;C:\Users\LENOVO\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\LENOVO\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\cucumber-testng\6.10.4\cucumber-testng-6.10.4.jar;C:\Users\LENOVO\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\LENOVO\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\LENOVO\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\LENOVO\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\LENOVO\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\LENOVO\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\LENOVO\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\LENOVO\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\LENOVO\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\LENOVO\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\LENOVO\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\LENOVO\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\LENOVO\AppData\Local\Temp\surefire2294049632082328357\surefirebooter8326053616553981549.jar C:\Users\LENOVO\AppData\Local\Temp\surefire2294049632082328357 2021-08-10T21-43-45_669-jvmRun1 surefire5081541781222142826tmp surefire_04902530109592932419tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\LENOVO\cucumber-learning\automation\target\test-classes;C:\Users\LENOVO\cucumber-learning\automation\target\classes;C:\Users\LENOVO\.m2\repository\io\cucumber\cucumber-java\6.10.4\cucumber-java-6.10.4.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\cucumber-core\6.10.4\cucumber-core-6.10.4.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\cucumber-gherkin\6.10.4\cucumber-gherkin-6.10.4.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.10.4\cucumber-gherkin-messages-6.10.4.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\cucumber-plugin\6.10.4\cucumber-plugin-6.10.4.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\docstring\6.10.4\docstring-6.10.4.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\LENOVO\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\cucumber-junit\6.10.4\cucumber-junit-6.10.4.jar;C:\Users\LENOVO\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\LENOVO\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\cucumber-testng\6.10.4\cucumber-testng-6.10.4.jar;C:\Users\LENOVO\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\LENOVO\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\LENOVO\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\LENOVO\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\LENOVO\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\LENOVO\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\LENOVO\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\LENOVO\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\LENOVO\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\LENOVO\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\LENOVO\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\LENOVO\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\LENOVO\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\LENOVO"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_281\jre"/>
+    <property name="basedir" value="C:\Users\LENOVO\cucumber-learning\automation"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\LENOVO\AppData\Local\Temp\surefire2294049632082328357\surefirebooter8326053616553981549.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_281-b09"/>
+    <property name="user.name" value="LENOVO"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\LENOVO\.m2\repository"/>
+    <property name="cucumber.options" value="--tags @KunikaTest"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\LENOVO\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_281"/>
+    <property name="user.dir" value="C:\Users\LENOVO\cucumber-learning\automation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\LENOVO\Downloads\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.281-b09"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Home page default login&quot;, &quot;Optional[application login]&quot;](1)" classname="cucumberRunner.TestNGRunner" time="0.372">
+    <system-out><![CDATA[
+@SanityTest @SmokeTest
+Scenario: Home page default login                                         # src/test/java/features/Account.feature:7
+@user is on netbanking landing page
+  Given user is on netbanking landing page                                # stepDefination.StepDefination.user_is_on_netbanking_landing_page()
+Username: "brij"  Password: 1234
+  When user login into application with username "brij" and password 1234 # stepDefination.StepDefination.user_login_into_application_with_username_and_password(java.lang.String,int)
+@home page is populated
+  Then home page is populated                                             # stepDefination.StepDefination.home_page_is_populated()
+@cards are displayed: false
+  And cards displayed "true"                                              # stepDefination.StepDefination.cards_are_displayed(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Mobile test Home page default login&quot;, &quot;Optional[application login]&quot;](2)" classname="cucumberRunner.TestNGRunner" time="0.05">
+    <system-out><![CDATA[
+@MobileTest
+Scenario: Mobile test Home page default login                             # src/test/java/features/Account.feature:14
+before mobile hook
+@user is on netbanking landing page
+  Given user is on netbanking landing page                                # stepDefination.StepDefination.user_is_on_netbanking_landing_page()
+Username: "brij"  Password: 1234
+  When user login into application with username "brij" and password 1234 # stepDefination.StepDefination.user_login_into_application_with_username_and_password(java.lang.String,int)
+@home page is populated
+  Then home page is populated                                             # stepDefination.StepDefination.home_page_is_populated()
+@cards are displayed: false
+  And cards displayed "true"                                              # stepDefination.StepDefination.cards_are_displayed(java.lang.String)
+after mobile hook
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Home page default login&quot;, &quot;Optional[application login]&quot;](3)" classname="cucumberRunner.TestNGRunner" time="0.066">
+    <system-out><![CDATA[
+@RegTest
+Scenario: Home page default login                                         # src/test/java/features/Login.feature:7
+background tag is getting executed
+  Given init background                                                   # stepDefination.StepDefination.backgroundRun()
+@user is on netbanking landing page
+  Given user is on netbanking landing page                                # stepDefination.StepDefination.user_is_on_netbanking_landing_page()
+Username: "brij"  Password: 1234
+  When user login into application with username "brij" and password 1234 # stepDefination.StepDefination.user_login_into_application_with_username_and_password(java.lang.String,int)
+@home page is populated
+  Then home page is populated                                             # stepDefination.StepDefination.home_page_is_populated()
+@cards are displayed: false
+  And cards displayed "true"                                              # stepDefination.StepDefination.cards_are_displayed(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Home page default login&quot;, &quot;Optional[application login]&quot;](4)" classname="cucumberRunner.TestNGRunner" time="0.039">
+    <system-out><![CDATA[
+@BrijTest
+Scenario: Home page default login                                         # src/test/java/features/Login.feature:14
+background tag is getting executed
+  Given init background                                                   # stepDefination.StepDefination.backgroundRun()
+@user is on netbanking landing page
+  Given user is on netbanking landing page                                # stepDefination.StepDefination.user_is_on_netbanking_landing_page()
+Username: "kunu"  Password: 1234
+  When user login into application with username "kunu" and password 1234 # stepDefination.StepDefination.user_login_into_application_with_username_and_password(java.lang.String,int)
+@home page is populated
+  Then home page is populated                                             # stepDefination.StepDefination.home_page_is_populated()
+@cards are displayed: false
+  And cards displayed "false"                                             # stepDefination.StepDefination.cards_are_displayed(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Home page default login&quot;, &quot;Optional[application login]&quot;](5)" classname="cucumberRunner.TestNGRunner" time="0.389">
+    <system-out><![CDATA[
+@KunikaTest
+Scenario: Home page default login                                         # src/test/java/features/Login.feature:21
+background tag is getting executed
+  Given init background                                                   # stepDefination.StepDefination.backgroundRun()
+@user is on netbanking landing page
+  Given user is on netbanking landing page                                # stepDefination.StepDefination.user_is_on_netbanking_landing_page()
+Username: "kunu"  Password: 1234
+  When user login into application with username "kunu" and password 1234 # stepDefination.StepDefination.user_login_into_application_with_username_and_password(java.lang.String,int)
+@home page is populated
+  Then home page is populated                                             # stepDefination.StepDefination.home_page_is_populated()
+@cards are displayed: false
+  And cards displayed "false"                                             # stepDefination.StepDefination.cards_are_displayed(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Home page default login&quot;, &quot;Optional[application login]&quot;](6)" classname="cucumberRunner.TestNGRunner" time="0.081">
+    <system-out><![CDATA[
+@SmokeTest
+Scenario: Home page default login          # src/test/java/features/Login.feature:28
+background tag is getting executed
+  Given init background                    # stepDefination.StepDefination.backgroundRun()
+@user is on netbanking landing page
+  Given user is on netbanking landing page # stepDefination.StepDefination.user_is_on_netbanking_landing_page()
+[Kunika Jaiswal, Kunu1234, 9876543210, kunu@female.com, Pune]
+Kunika Jaiswal
+Kunu1234
+9876543210
+kunu@female.com
+Pune
+  When user signup with following details  # stepDefination.StepDefination.user_signup_with_following_details(io.cucumber.datatable.DataTable)
+@home page is populated
+  Then home page is populated              # stepDefination.StepDefination.home_page_is_populated()
+@cards are displayed: false
+  And cards displayed "true"               # stepDefination.StepDefination.cards_are_displayed(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Home page default login&quot;, &quot;Optional[application login]&quot;](7)" classname="cucumberRunner.TestNGRunner" time="0.028">
+    <system-out><![CDATA[
+@SmokeTest
+Scenario Outline: Home page default login                                # src/test/java/features/Login.feature:44
+background tag is getting executed
+  Given init background                                                  # stepDefination.StepDefination.backgroundRun()
+@user is on netbanking landing page
+  Given user is on netbanking landing page                               # stepDefination.StepDefination.user_is_on_netbanking_landing_page()
+Username: Kunu1  Password: 1234
+  When user login into application with username Kunu1 and password 1234 # stepDefination.StepDefination.user_login_into_application_with_username_and_password(java.lang.String,int)
+@home page is populated
+  Then home page is populated                                            # stepDefination.StepDefination.home_page_is_populated()
+@cards are displayed: true
+  And cards displayed true                                               # stepDefination.StepDefination.cards_are_displayed(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Home page default login&quot;, &quot;Optional[application login]&quot;](8)" classname="cucumberRunner.TestNGRunner" time="0.047">
+    <system-out><![CDATA[
+@SmokeTest
+Scenario Outline: Home page default login                                # src/test/java/features/Login.feature:45
+background tag is getting executed
+  Given init background                                                  # stepDefination.StepDefination.backgroundRun()
+@user is on netbanking landing page
+  Given user is on netbanking landing page                               # stepDefination.StepDefination.user_is_on_netbanking_landing_page()
+Username: brij1  Password: 4321
+  When user login into application with username brij1 and password 4321 # stepDefination.StepDefination.user_login_into_application_with_username_and_password(java.lang.String,int)
+@home page is populated
+  Then home page is populated                                            # stepDefination.StepDefination.home_page_is_populated()
+@cards are displayed: false
+  And cards displayed false                                              # stepDefination.StepDefination.cards_are_displayed(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Mobile test Home page default login&quot;, &quot;Optional[application login]&quot;](9)" classname="cucumberRunner.TestNGRunner" time="0.235">
+    <system-out><![CDATA[
+@MobileTest
+Scenario: Mobile test Home page default login                             # src/test/java/features/Mobile.feature:7
+before mobile hook
+baackground is executed
+  Given this is backgournd code                                           # stepDefination.StepDefination.this_is_backgound()
+@user is on netbanking landing page
+  Given user is on netbanking landing page                                # stepDefination.StepDefination.user_is_on_netbanking_landing_page()
+Username: "brij"  Password: 1234
+  When user login into application with username "brij" and password 1234 # stepDefination.StepDefination.user_login_into_application_with_username_and_password(java.lang.String,int)
+@home page is populated
+  Then home page is populated                                             # stepDefination.StepDefination.home_page_is_populated()
+@cards are displayed: false
+  And cards displayed "true"                                              # stepDefination.StepDefination.cards_are_displayed(java.lang.String)
+after mobile hook
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Mobile test Home page default login&quot;, &quot;Optional[application login]&quot;](10)" classname="cucumberRunner.TestNGRunner" time="0.066">
+    <system-out><![CDATA[
+@MobileTest
+Scenario: Mobile test Home page default login                             # src/test/java/features/Mobile.feature:14
+before mobile hook
+baackground is executed
+  Given this is backgournd code                                           # stepDefination.StepDefination.this_is_backgound()
+@user is on netbanking landing page
+  Given user is on netbanking landing page                                # stepDefination.StepDefination.user_is_on_netbanking_landing_page()
+Username: "brij"  Password: 1234
+  When user login into application with username "brij" and password 1234 # stepDefination.StepDefination.user_login_into_application_with_username_and_password(java.lang.String,int)
+@home page is populated
+  Then home page is populated                                             # stepDefination.StepDefination.home_page_is_populated()
+@cards are displayed: false
+  And cards displayed "true"                                              # stepDefination.StepDefination.cards_are_displayed(java.lang.String)
+after mobile hook
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Search for items and validate result&quot;, &quot;Optional[Search and place order of vegitables]&quot;](11)" classname="cucumberRunner.TestNGRunner" time="13.057">
+    <system-out><![CDATA[
+@SeleniumPractice @BrinjalTag
+Scenario: Search for items and validate result # src/test/java/features/SeleniumPractice.feature:6
+  Given User is on Greencart landing page      # stepDefination.SeleniumPracticeStepDefinitation.user_is_on_greencart_landing_page()
+  When User serach for "Cucumber" vegitable    # stepDefination.SeleniumPracticeStepDefinitation.user_serach_for_vegitable(java.lang.String)
+  Then "Cucumber" results are displayed        # stepDefination.SeleniumPracticeStepDefinitation.results_are_displayed(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 12830
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 10, 2021 9:43:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Search for items and then move to checkout page&quot;, &quot;Optional[Search and place order of vegitables]&quot;](12)" classname="cucumberRunner.TestNGRunner" time="11.443">
+    <failure message="chrome not reachable&#10;  (Session info: chrome=92.0.4515.131)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-S0IV8SP&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55354}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 982f9c64536979f68017f57490a76090&#10;*** Element info: {Using=xpath, value=//input[@type=&apos;search&apos;]}" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=92.0.4515.131)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-S0IV8SP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55354}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 982f9c64536979f68017f57490a76090
+*** Element info: {Using=xpath, value=//input[@type='search']}
+]]></failure>
+    <system-out><![CDATA[
+@SeleniumPractice @tag2
+Scenario: Search for items and then move to checkout page              # src/test/java/features/SeleniumPractice.feature:12
+  Given User is on Greencart landing page                              # stepDefination.SeleniumPracticeStepDefinitation.user_is_on_greencart_landing_page()
+  When User serach for "Brinjal" vegitable                             # stepDefination.SeleniumPracticeStepDefinitation.user_serach_for_vegitable(java.lang.String)
+      org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=92.0.4515.131)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-S0IV8SP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55354}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 982f9c64536979f68017f57490a76090
+*** Element info: {Using=xpath, value=//input[@type='search']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at pageObject.HomePage.getSearch(HomePage.java:16)
+	at stepDefination.SeleniumPracticeStepDefinitation.user_serach_for_vegitable(SeleniumPracticeStepDefinitation.java:28)
+	at âœ½.User serach for "Brinjal" vegitable(file:///C:/Users/LENOVO/cucumber-learning/automation/src/test/java/features/SeleniumPractice.feature:14)
+
+  And added items to cart                                              # stepDefination.SeleniumPracticeStepDefinitation.added_items_to_cart()
+  And user proceeded to checkout page for purchase                     # stepDefination.SeleniumPracticeStepDefinitation.user_proceeded_to_checkout_page_for_purchase()
+  Then verify selected "Brinjal" items are displayed in check out page # stepDefination.SeleniumPracticeStepDefinitation.verify_selected_items_are_displayed_in_check_out_page(java.lang.String)
+      org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=92.0.4515.131)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-S0IV8SP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55354}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 982f9c64536979f68017f57490a76090
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+	at stepDefination.Hooks.SeleniumAfter(Hooks.java:21)
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 38992
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 10, 2021 9:44:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Web test Home page default login&quot;, &quot;Optional[web application login]&quot;](13)" classname="cucumberRunner.TestNGRunner" time="0.022">
+    <system-out><![CDATA[
+@WebTest
+Scenario: Web test Home page default login                                # src/test/java/features/WebTest.feature:4
+before web hook
+@user is on netbanking landing page
+  Given user is on netbanking landing page                                # stepDefination.StepDefination.user_is_on_netbanking_landing_page()
+Username: "brij"  Password: 1234
+  When user login into application with username "brij" and password 1234 # stepDefination.StepDefination.user_login_into_application_with_username_and_password(java.lang.String,int)
+@home page is populated
+  Then home page is populated                                             # stepDefination.StepDefination.home_page_is_populated()
+@cards are displayed: false
+  And cards displayed "true"                                              # stepDefination.StepDefination.cards_are_displayed(java.lang.String)
+after web hook
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Web test Home page default login&quot;, &quot;Optional[web application login]&quot;](14)" classname="cucumberRunner.TestNGRunner" time="0.025">
+    <system-out><![CDATA[
+@WebTest
+Scenario: Web test Home page default login                                # src/test/java/features/WebTest.feature:11
+before web hook
+@user is on netbanking landing page
+  Given user is on netbanking landing page                                # stepDefination.StepDefination.user_is_on_netbanking_landing_page()
+Username: "brij"  Password: 1234
+  When user login into application with username "brij" and password 1234 # stepDefination.StepDefination.user_login_into_application_with_username_and_password(java.lang.String,int)
+@home page is populated
+  Then home page is populated                                             # stepDefination.StepDefination.home_page_is_populated()
+@cards are displayed: false
+  And cards displayed "true"                                              # stepDefination.StepDefination.cards_are_displayed(java.lang.String)
+after web hook
+]]></system-out>
+  </testcase>
+</testsuite>

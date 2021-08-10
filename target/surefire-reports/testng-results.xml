@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="14" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="26985" started-at="2021-08-10T21:43:47 IST" finished-at="2021-08-10T21:44:14 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberRunner.TestNGRunner@694e1548]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="26985" started-at="2021-08-10T21:43:47 IST" finished-at="2021-08-10T21:44:14 IST">
+      <class name="cucumberRunner.TestNGRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:cucumberRunner.TestNGRunner@694e1548]" name="setUpClass" is-config="true" duration-ms="627" started-at="2021-08-10T21:43:47 IST" finished-at="2021-08-10T21:43:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberRunner.TestNGRunner@694e1548]" name="runScenario" duration-ms="181" started-at="2021-08-10T21:43:48 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-10T21:43:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home page default login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[application login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberRunner.TestNGRunner@694e1548]" name="runScenario" duration-ms="22" started-at="2021-08-10T21:43:48 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-10T21:43:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Mobile test Home page default login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[application login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberRunner.TestNGRunner@694e1548]" name="runScenario" duration-ms="17" started-at="2021-08-10T21:43:48 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-10T21:43:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home page default login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[application login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberRunner.TestNGRunner@694e1548]" name="runScenario" duration-ms="16" started-at="2021-08-10T21:43:48 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-10T21:43:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home page default login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[application login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberRunner.TestNGRunner@694e1548]" name="runScenario" duration-ms="8" started-at="2021-08-10T21:43:48 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-10T21:43:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home page default login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[application login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberRunner.TestNGRunner@694e1548]" name="runScenario" duration-ms="30" started-at="2021-08-10T21:43:48 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-10T21:43:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home page default login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[application login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberRunner.TestNGRunner@694e1548]" name="runScenario" duration-ms="12" started-at="2021-08-10T21:43:48 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-10T21:43:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home page default login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[application login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberRunner.TestNGRunner@694e1548]" name="runScenario" duration-ms="19" started-at="2021-08-10T21:43:48 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-10T21:43:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Home page default login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[application login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberRunner.TestNGRunner@694e1548]" name="runScenario" duration-ms="13" started-at="2021-08-10T21:43:48 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-10T21:43:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Mobile test Home page default login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[application login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberRunner.TestNGRunner@694e1548]" name="runScenario" duration-ms="14" started-at="2021-08-10T21:43:48 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-10T21:43:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Mobile test Home page default login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[application login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberRunner.TestNGRunner@694e1548]" name="runScenario" duration-ms="14017" started-at="2021-08-10T21:43:48 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-10T21:44:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for items and validate result"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Search and place order of vegitables]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberRunner.TestNGRunner@694e1548]" name="runScenario" duration-ms="11140" started-at="2021-08-10T21:44:02 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-10T21:44:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for items and then move to checkout page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Search and place order of vegitables]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[chrome not reachable
+  (Session info: chrome=92.0.4515.131)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-S0IV8SP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55354}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 982f9c64536979f68017f57490a76090
+*** Element info: {Using=xpath, value=//input[@type='search']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=92.0.4515.131)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-S0IV8SP', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55354}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 982f9c64536979f68017f57490a76090
+*** Element info: {Using=xpath, value=//input[@type='search']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at pageObject.HomePage.getSearch(HomePage.java:16)
+at stepDefination.SeleniumPracticeStepDefinitation.user_serach_for_vegitable(SeleniumPracticeStepDefinitation.java:28)
+at ✽.User serach for "Brinjal" vegitable(file:///C:/Users/LENOVO/cucumber-learning/automation/src/test/java/features/SeleniumPractice.feature:14)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberRunner.TestNGRunner@694e1548]" name="runScenario" duration-ms="23" started-at="2021-08-10T21:44:13 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-10T21:44:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Web test Home page default login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[web application login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberRunner.TestNGRunner@694e1548]" name="runScenario" duration-ms="31" started-at="2021-08-10T21:44:13 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-10T21:44:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Web test Home page default login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[web application login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberRunner.TestNGRunner@694e1548]" name="tearDownClass" is-config="true" duration-ms="714" started-at="2021-08-10T21:44:13 IST" finished-at="2021-08-10T21:44:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberRunner.TestNGRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
