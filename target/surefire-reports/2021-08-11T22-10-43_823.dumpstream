@@ -1,0 +1,4 @@
+# Created at 2021-08-11T22:10:44.825
+Boot Manifest-JAR contains absolute paths in classpath 'E:\GitLearning\GitClone\GitDemo\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
