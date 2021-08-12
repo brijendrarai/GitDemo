@@ -9,6 +9,7 @@ public class Hooks extends DriverUtil{
 	@Before("@MobileTest")
 	public void mobileBefore() {
 		System.out.println("before mobile hook");
+		System.out.println("git 1");
 	}
 	
 	@After("@MobileTest")
